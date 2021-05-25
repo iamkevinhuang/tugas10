@@ -1,0 +1,14 @@
+com/databasemobile/ReactNativeFlipper.java
+ com.databasemobile.ReactNativeFlipper
+ com.databasemobile.ReactNativeFlipper$1
+ com.databasemobile.ReactNativeFlipper$2
+ com.databasemobile.ReactNativeFlipper$2$1
+com/databasemobile/BuildConfig.java
+ com.databasemobile.BuildConfig
+com/databasemobile/MainApplication.java
+ com.databasemobile.MainApplication
+ com.databasemobile.MainApplication$1
+com/databasemobile/MainActivity.java
+ com.databasemobile.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
