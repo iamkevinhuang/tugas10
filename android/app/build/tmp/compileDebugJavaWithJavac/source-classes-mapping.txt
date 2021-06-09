@@ -1,8 +1,14 @@
+com/databasemobile/Widget.java
+ com.databasemobile.Widget
+com/databasemobile/SharedStorage.java
+ com.databasemobile.SharedStorage
 com/databasemobile/ReactNativeFlipper.java
  com.databasemobile.ReactNativeFlipper
  com.databasemobile.ReactNativeFlipper$1
  com.databasemobile.ReactNativeFlipper$2
  com.databasemobile.ReactNativeFlipper$2$1
+com/databasemobile/SharedStoragePackager.java
+ com.databasemobile.SharedStoragePackager
 com/databasemobile/BuildConfig.java
  com.databasemobile.BuildConfig
 com/databasemobile/MainApplication.java

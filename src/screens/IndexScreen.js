@@ -9,6 +9,9 @@ import {
   Image,
 } from 'react-native';
 import {openDatabase} from 'react-native-sqlite-storage';
+import {NativeModules} from 'react-native';
+const SharedStorage = NativeModules.SharedStorage;
+
 var db = openDatabase({name: 'UserDatabase.db'});
 
 const IndexScreen = ({navigation}) => {
@@ -22,6 +25,7 @@ const IndexScreen = ({navigation}) => {
           temp.push(results.rows.item(i));
         }
         setFlatListItems(temp);
+        SharedStorage.set(JSON.stringify({text: flatListItems.length}));
       });
     });
   };

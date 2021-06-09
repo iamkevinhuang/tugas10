@@ -12,57 +12,75 @@
 11-->E:\ReactNative\databaseMobile\android\app\src\debug\AndroidManifest.xml:5:5-77
 11-->E:\ReactNative\databaseMobile\android\app\src\debug\AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:4:5-67
-12-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:4:22-64
+12-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:36:5-67
+12-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:36:22-64
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 13-->[com.facebook.flipper:flipper:0.75.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a8f6015f96666ab8d93bfe5b64998bc8\jetified-flipper-0.75.1\AndroidManifest.xml:16:5-76
 13-->[com.facebook.flipper:flipper:0.75.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a8f6015f96666ab8d93bfe5b64998bc8\jetified-flipper-0.75.1\AndroidManifest.xml:16:22-73
 14
 15    <application
-15-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:6:5-24:19
+15-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:5:5-34:19
 16        android:name="com.databasemobile.MainApplication"
-16-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:7:7-38
+16-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:6:9-40
 17        android:allowBackup="false"
-17-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:11:7-34
+17-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:7:9-36
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 18-->[androidx.core:core:1.1.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d67cd79abd1ca209502f51c69d23182b\core-1.1.0\AndroidManifest.xml:24:18-86
 19        android:debuggable="true"
 20        android:icon="@mipmap/ic_launcher"
-20-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:9:7-41
+20-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:8:9-43
 21        android:label="@string/app_name"
-21-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:8:7-39
+21-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:9:9-41
 22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:10:7-52
+22-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:10:9-54
 23        android:theme="@style/AppTheme"
-23-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:12:7-38
+23-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:11:9-40
 24        android:usesCleartextTraffic="true" >
 24-->E:\ReactNative\databaseMobile\android\app\src\debug\AndroidManifest.xml:8:9-44
 25        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
 25-->E:\ReactNative\databaseMobile\android\app\src\debug\AndroidManifest.xml:11:9-86
 25-->E:\ReactNative\databaseMobile\android\app\src\debug\AndroidManifest.xml:11:19-83
 26        <activity
-26-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:13:7-23:18
+26-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:12:9-23:20
 27            android:name="com.databasemobile.MainActivity"
-27-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:14:9-37
+27-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:13:13-41
 28            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-28-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:16:9-86
+28-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:14:13-90
 29            android:label="@string/app_name"
-29-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:15:9-41
+29-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:15:13-45
 30            android:launchMode="singleTask"
-30-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:17:9-40
+30-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:16:13-44
 31            android:windowSoftInputMode="adjustResize" >
-31-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:18:9-51
+31-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:17:13-55
 32            <intent-filter>
-32-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:19:9-22:25
+32-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:18:13-22:29
 33                <action android:name="android.intent.action.MAIN" />
-33-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:20:13-65
-33-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:20:21-62
+33-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:19:17-69
+33-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:19:25-66
 34
 35                <category android:name="android.intent.category.LAUNCHER" />
-35-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:21:13-73
-35-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:21:23-70
+35-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:21:17-77
+35-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:21:27-74
 36            </intent-filter>
 37        </activity>
-38    </application>
-39
-40</manifest>
+38
+39        <receiver android:name="com.databasemobile.Widget" >
+39-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:25:9-33:20
+39-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:25:19-41
+40            <intent-filter>
+40-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:26:13-28:29
+41                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+41-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:27:17-84
+41-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:27:25-81
+42            </intent-filter>
+43
+44            <meta-data
+44-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:30:13-32:55
+45                android:name="android.appwidget.provider"
+45-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:31:17-58
+46                android:resource="@xml/widget_info" />
+46-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:32:17-52
+47        </receiver>
+48    </application>
+49
+50</manifest>

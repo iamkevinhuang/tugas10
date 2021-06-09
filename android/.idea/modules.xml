@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/databaseMobile.iml" filepath="$PROJECT_DIR$/.idea/modules/databaseMobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/databaseMobile.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/databaseMobile.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1057917741/databaseMobile.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-1057917741/databaseMobile.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2009974628/databaseMobile.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/2009974628/databaseMobile.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1737017400/databaseMobile.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/1737017400/databaseMobile.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-498297139/databaseMobile.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-498297139/databaseMobile.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/971154213/databaseMobile.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/971154213/databaseMobile.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1421392083/databaseMobile.react-native-sqlite-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-1421392083/databaseMobile.react-native-sqlite-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1223699186/databaseMobile.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/1223699186/databaseMobile.react-native-vector-icons.iml" />
+    </modules>
+  </component>
+</project>

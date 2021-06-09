@@ -10,13 +10,26 @@ import RegisterScreen from './src/screens/RegisterScreen';
 import UpdateScreen from './src/screens/UpdateScreen';
 import ReadScreen from './src/screens/ReadScreen';
 import {openDatabase} from 'react-native-sqlite-storage';
+import {NativeModules} from 'react-native';
+const SharedStorage = NativeModules.SharedStorage;
 
-import {Icon} from 'react-native-elements';
 const Stack = createStackNavigator();
 
 var db = openDatabase({name: 'UserDatabase.db'});
 
 const App = () => {
+  const loadUser = () => {
+    db.transaction(tx => {
+      tx.executeSql('SELECT * FROM table_user', [], (tx, results) => {
+        SharedStorage.set(
+          JSON.stringify({
+            text: 'Jumlah Pengguna Terdaftar : ' + results.rows.length,
+          }),
+        );
+      });
+    });
+  };
+
   useEffect(() => {
     db.transaction(function (txn) {
       txn.executeSql(
@@ -31,6 +44,7 @@ const App = () => {
               [],
             );
           }
+          loadUser();
         },
       );
     });
