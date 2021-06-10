@@ -20,9 +20,9 @@ public class QuoteOfTheDay extends AppWidgetProvider {
             RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.quote_of_the_day);
             views.setTextViewText(R.id.appwidget_text, appData.getString("quote"));  // Instruct the widget manager to update the widget
             appWidgetManager.updateAppWidget(appWidgetId, views);
-           }catch (JSONException e) {
+        }catch (JSONException e) {
             e.printStackTrace();
-           }
+        }
     }
 
     @Override

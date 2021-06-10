@@ -1803,6 +1803,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout product_of_dom
 layout quote_of_the_day
 layout redbox_item_frame
 layout redbox_item_title
@@ -2747,6 +2748,7 @@ styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
+xml product_of_dom_info
 xml quote_of_the_day_info
 xml rn_dev_preferences
 xml standalone_badge

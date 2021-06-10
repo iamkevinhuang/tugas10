@@ -37,6 +37,15 @@
             </intent-filter>
         </activity>
 
+        <receiver android:name="com.databasemobile.ProductOfDom" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/product_of_dom_info" />
+        </receiver>
         <receiver android:name="com.databasemobile.QuoteOfTheDay" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />

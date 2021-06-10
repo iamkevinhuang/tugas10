@@ -37,13 +37,15 @@ const App = () => {
     );
     SharedStorage.set(
       JSON.stringify({
-        product: result.product_name,
+        product: result.data.product_name,
       }),
     );
+    console.log(result.data.product_name);
   };
 
   useEffect(() => {
     fetchQuote();
+    fetchProduct();
     db.transaction(function (txn) {
       txn.executeSql(
         "SELECT name FROM sqlite_master WHERE type='table' AND name='table_user'",

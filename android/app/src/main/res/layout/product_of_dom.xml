@@ -5,6 +5,12 @@
     android:padding="@dimen/widget_margin"
     android:theme="@style/ThemeOverlay.DatabaseMobile.AppWidgetContainer">
 
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+
+        />
+
     <TextView
         android:id="@+id/appwidget_text"
         android:layout_width="wrap_content"
@@ -14,7 +20,7 @@
         android:layout_margin="8dp"
         android:background="?attr/appWidgetBackgroundColor"
         android:contentDescription="@string/appwidget_text"
-        android:text="@string/appwidget_text"
+        android:text="Belum Ada Product"
         android:textColor="?attr/appWidgetTextColor"
         android:textSize="24sp"
         android:textStyle="bold|italic" />

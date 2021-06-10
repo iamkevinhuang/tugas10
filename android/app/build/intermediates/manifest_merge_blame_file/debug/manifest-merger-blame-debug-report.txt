@@ -12,14 +12,14 @@
 11-->E:\ReactNative\databaseMobile\android\app\src\debug\AndroidManifest.xml:5:5-77
 11-->E:\ReactNative\databaseMobile\android\app\src\debug\AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:36:5-67
-12-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:36:22-64
+12-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:46:5-67
+12-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:46:22-64
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 13-->[com.facebook.flipper:flipper:0.75.1] E:\Program Files\Android\Android Studio\gradle\gradle-5.1.1\caches\transforms-2\files-2.1\a8f6015f96666ab8d93bfe5b64998bc8\jetified-flipper-0.75.1\AndroidManifest.xml:16:5-76
 13-->[com.facebook.flipper:flipper:0.75.1] E:\Program Files\Android\Android Studio\gradle\gradle-5.1.1\caches\transforms-2\files-2.1\a8f6015f96666ab8d93bfe5b64998bc8\jetified-flipper-0.75.1\AndroidManifest.xml:16:22-73
 14
 15    <application
-15-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:5:5-34:19
+15-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:5:5-44:19
 16        android:name="com.databasemobile.MainApplication"
 16-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:6:9-40
 17        android:allowBackup="false"
@@ -65,9 +65,9 @@
 37            </intent-filter>
 38        </activity>
 39
-40        <receiver android:name="com.databasemobile.QuoteOfTheDay" >
+40        <receiver android:name="com.databasemobile.ProductOfDom" >
 40-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:25:9-33:20
-40-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:25:19-48
+40-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:25:19-47
 41            <intent-filter>
 41-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:26:13-28:29
 42                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -76,12 +76,29 @@
 43            </intent-filter>
 44
 45            <meta-data
-45-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:30:13-32:65
+45-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:30:13-32:63
 46                android:name="android.appwidget.provider"
 46-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:31:17-58
-47                android:resource="@xml/quote_of_the_day_info" />
-47-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:32:17-62
+47                android:resource="@xml/product_of_dom_info" />
+47-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:32:17-60
 48        </receiver>
-49    </application>
-50
-51</manifest>
+49        <receiver android:name="com.databasemobile.QuoteOfTheDay" >
+49-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:35:9-43:20
+49-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:35:19-48
+50            <intent-filter>
+50-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:26:13-28:29
+51                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+51-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:27:17-84
+51-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:27:25-81
+52            </intent-filter>
+53
+54            <meta-data
+54-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:30:13-32:63
+55                android:name="android.appwidget.provider"
+55-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:31:17-58
+56                android:resource="@xml/quote_of_the_day_info" />
+56-->E:\ReactNative\databaseMobile\android\app\src\main\AndroidManifest.xml:32:17-60
+57        </receiver>
+58    </application>
+59
+60</manifest>

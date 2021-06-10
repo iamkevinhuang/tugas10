@@ -32,6 +32,14 @@
         "source": "E:\\ReactNative\\databaseMobile\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "E:\\ReactNative\\databaseMobile\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_product_of_dom_info.xml.flat",
+        "source": "E:\\ReactNative\\databaseMobile\\android\\app\\src\\main\\res\\xml\\product_of_dom_info.xml"
+    },
+    {
+        "merged": "E:\\ReactNative\\databaseMobile\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_product_of_dom.xml.flat",
+        "source": "E:\\ReactNative\\databaseMobile\\android\\app\\src\\main\\res\\layout\\product_of_dom.xml"
+    },
+    {
         "merged": "E:\\ReactNative\\databaseMobile\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_quote_of_the_day.xml.flat",
         "source": "E:\\ReactNative\\databaseMobile\\android\\app\\src\\main\\res\\layout\\quote_of_the_day.xml"
     },
