@@ -11,13 +11,39 @@ import UpdateScreen from './src/screens/UpdateScreen';
 import ReadScreen from './src/screens/ReadScreen';
 import {openDatabase} from 'react-native-sqlite-storage';
 
-import {Icon} from 'react-native-elements';
+import quoteApi from './src/api/quote';
+import domApi from './src/api/dom';
+
+import {NativeModules} from 'react-native';
+const SharedStorage = NativeModules.SharedStorage;
+
 const Stack = createStackNavigator();
 
 var db = openDatabase({name: 'UserDatabase.db'});
 
 const App = () => {
+  const fetchQuote = async () => {
+    const result = await quoteApi.get('/random');
+    SharedStorage.set(
+      JSON.stringify({
+        quote: result.data.content + '\n\nBy : “' + result.data.author + '”',
+      }),
+    );
+  };
+
+  const fetchProduct = async () => {
+    const result = await domApi.get(
+      `/customer/products/${6006 + Math.floor(Math.random() * 201)}`,
+    );
+    SharedStorage.set(
+      JSON.stringify({
+        product: result.product_name,
+      }),
+    );
+  };
+
   useEffect(() => {
+    fetchQuote();
     db.transaction(function (txn) {
       txn.executeSql(
         "SELECT name FROM sqlite_master WHERE type='table' AND name='table_user'",
