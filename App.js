@@ -37,7 +37,7 @@ const App = () => {
     );
     SharedStorage.set(
       JSON.stringify({
-        product: result.data.product_name,
+        product: result.data.product_name + '\nRp' + result.data.product_price,
       }),
     );
     console.log(result.data.product_name);

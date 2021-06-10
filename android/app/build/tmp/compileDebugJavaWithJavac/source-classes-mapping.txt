@@ -5,18 +5,18 @@ com/databasemobile/ReactNativeFlipper.java
  com.databasemobile.ReactNativeFlipper$1
  com.databasemobile.ReactNativeFlipper$2
  com.databasemobile.ReactNativeFlipper$2$1
+com/databasemobile/QuoteOfTheDay.java
+ com.databasemobile.QuoteOfTheDay
+com/databasemobile/SharedStoragePackager.java
+ com.databasemobile.SharedStoragePackager
+com/databasemobile/BuildConfig.java
+ com.databasemobile.BuildConfig
 com/databasemobile/MainApplication.java
  com.databasemobile.MainApplication
  com.databasemobile.MainApplication$1
 com/databasemobile/MainActivity.java
  com.databasemobile.MainActivity
-com/databasemobile/BuildConfig.java
- com.databasemobile.BuildConfig
-com/databasemobile/ProductOfDom.java
- com.databasemobile.ProductOfDom
-com/databasemobile/QuoteOfTheDay.java
- com.databasemobile.QuoteOfTheDay
 com/databasemobile/SharedStorage.java
  com.databasemobile.SharedStorage
-com/databasemobile/SharedStoragePackager.java
- com.databasemobile.SharedStoragePackager
+com/databasemobile/ProductOfDom.java
+ com.databasemobile.ProductOfDom
